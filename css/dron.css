@@ -1,0 +1,161 @@
+
+/* General Demo Style */
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro);
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th{ 
+    font-family: 'Maven Pro', sans-serif;
+	text-shadow: 2px 2px 2px #bbb;
+	margin:0;
+	padding:0;
+	  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+}
+html,body {
+font-family: 'Maven Pro', sans-serif;
+	margin:0;
+	padding:0;
+}
+fieldset,img { 
+	border:0;
+}
+input{
+	border:1px solid #b0b0b0;
+	padding:3px 5px 4px;
+	color:#979797;
+	width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+
+caption,th {
+	text-align:left;
+}
+
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+
+body{
+	background:url(../image/bgpsdcrop.png);
+	font-family: "Maven Pro Light 300";
+	font-size: 14px;
+}
+.container{
+	position:relative;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+.clr{
+	clear: both;
+}
+.content{
+	position:relative;
+}
+
+h1{
+	margin:0px;
+	font-size:48px;
+	color:#000;
+    text-shadow:1px 1px 1px rgba(255,255,255,0.9);
+	font-weight:400;
+}
+h2{
+	margin:0px;
+	font-size:28px;
+	color:#000;
+    text-shadow:1px 1px 1px rgba(255,255,255,0.9);
+	font-weight:400;
+}
+h3{
+	margin:0px;
+	padding-top:5px;
+	font-size:18px;
+	color:#000;
+    text-shadow:1px 1px 1px rgba(255,255,255,0.2);
+	font-weight:300;
+}
+h1 span{
+    display:block;
+	font-size:14px;
+	color:#0F0;
+    font-style:italic;
+    font-family:Georgia, serif;
+	padding-top:5px;
+}
+/* Header Style */
+.header{
+	font-family:'Arial Narrow', Arial, sans-serif;
+	line-height: 24px;
+	font-size: 11px;
+	background: #000;
+	opacity: 0.9;
+	text-transform: uppercase;
+	z-index: 9999;
+	position: relative;
+	-moz-box-shadow: 1px 0px 2px #000;
+	-webkit-box-shadow: 1px 0px 2px #000;
+	box-shadow: 1px 0px 2px #000;
+}
+.header a{
+	padding: 0px 10px;
+	letter-spacing: 1px;
+	color: #ddd;
+	display: block;
+	float: left;
+}
+.header a:hover{
+	color: #fff;
+}
+.header span.right{
+	float: right;
+}
+.header span.right a{
+	float: none;
+	display: inline;
+}
+.more{
+	position:relative;
+	clear:both;
+    font-size: 11px;
+    padding: 20px 0px;
+    text-transform:uppercase;
+    width: 390px;
+    height:55px;
+    margin: 0 auto;
+}
+.more ul{
+	display:block;
+	text-align:center;
+}
+.more ul li{
+	display: block;
+    padding: 4px 2px;
+    float:left;
+}
+.more ul li.selected a,
+.more ul li.selected a:hover{
+	background:#0099c5;
+	color:#fff;
+	text-shadow:none;
+    font-weight:bold;
+}
+.more ul li a{
+	color:#555;
+    float:left;
+	background:#fff;
+    width:64px;
+	padding: 2px 5px;
+	-moz-box-shadow:1px 1px 2px #aaa;
+	-webkit-box-shadow:1px 1px 2px #aaa;
+	box-shadow:1px 1px 2px #aaa;
+}
+.more ul li a:hover{
+	background:#000;
+	color:#fff;
+}

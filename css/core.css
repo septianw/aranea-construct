@@ -1,0 +1,27 @@
+#horizontal {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  overflow: visible;
+  text-align: center;
+}
+#container {
+  width: 400px;
+  height: 350px;
+  position: absolute;
+  left: 50%;
+  top: -175px;
+  margin-left: -200px;
+}
+#picture {
+/*   background-image: url('../'); */
+  width: 400px;
+  height: 250px;
+}
+#string {
+}
+a:link {
+  text-decoration: none;
+  color: #53b2fb;
+  font-weight: bold;
+}

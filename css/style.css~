@@ -1,0 +1,229 @@
+@charset "utf-8";
+/* CSS Document code by Yutant*/
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* -- Kalau misalnya offline---
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('FontAwesome/fontawesome-webfont.eot?v=4.0.3');
+  src: url('FontAwesome/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('FontAwesome/fontawesome-webfont.woff?v=4.0.3') format('woff'), url('FontAwesome/fontawesome-webfont.ttf?v=4.0.3') format('truetype'), url('FontAwesome/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}*/
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fa-orang:before{
+  content: "\f007";color:#FFF;
+}
+.fa-pesan:before {
+  content: "\f003";color:#FFF;
+  
+}
+.fa-telpon:before{
+  content: "\f095";color:#FFF;
+  
+  
+}
+h1 {
+	font-size:38px;
+}
+
+h2 {
+	font-size:36px;
+}
+
+h3 {
+	font-size:28px;
+}
+.main{
+	width: 100%;
+}
+.content{
+	width: 900px;
+	height: 100%;
+}
+.up{
+padding-top:20px;
+	width:100%;
+	height:28px;
+}
+.down{
+    padding-bottom:20px;
+	width:100%;
+	height:28px;
+	position: fixed; 
+	bottom: 0
+}
+.upkanan{
+	background-color:#3f73b9;
+}
+.uptengah{
+	background-color:#e73b7e;
+	width: 330px;
+}
+.upkiri{
+	background-color:#fed200;
+}
+.ca-menukiri{
+	float:right;
+	width:auto;
+}
+.ca-menutengah{
+	width: 330px;
+}
+.ca-menukanan{
+	float:left;
+	width: auto;
+}
+
+.ca-menu li{
+    width: 330px;
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.ca-menu li a{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #f5f5f5;
+    position: relative;
+}
+.ca-icon{
+	font-family: 'fontawesome', cursive;
+    font-size: 28px;
+	bottom:0px;
+	line-height: 46px;
+	width: 46px;
+	left: 140px;
+	position: absolute;
+    z-index: 2;
+}
+/*---warna bg icon --*/
+.kanan{
+    background-color:#3f73b9;
+}
+.tengah{
+    background-color:#e73b7e;
+}
+.kiri{
+    background-color:#fed200;
+}
+.ca-content{
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+}
+.ca-main{
+    color: #f5f5f5;
+	opacity:0.0;
+	background-color :#222;
+	height: 100%;
+	text-shadow: 0px 0px 1px #222;
+    text-align: center;
+	line-height: 20px;
+	
+}
+.ca-sub{
+    text-align:center;
+    font-size: 14px;
+    color: red; 
+    opacity: 0.8;
+}
+
+ .ca-icon li:hover .ca-main{
+	text-shadow: 0px 0px 1px #444;
+	font-family: 'fontawesome';
+	font-size: 28px;
+	height: 46px;
+	weight: 46px;
+	background-color:#144c97;
+	opacity: 1;
+
+}
+
+.ca-menu li:hover .ca-main{
+    color: #f5f5f5;
+    opacity: 1.0;
+	text-shadow: 0px 0px 1px #222;
+    text-align: center;
+	line-height: 20px;
+	-webkit-animation: moveFromBottom 300ms ease-in-out;
+    -moz-animation: moveFromBottom 300ms ease-in-out;
+    -ms-animation: moveFromBottom 300ms ease-in-out;
+}
+
+
+
+@-webkit-keyframes moveFromBottom {
+    from {
+        opacity: 0;
+        -webkit-transform: translateY(300%);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+@-moz-keyframes moveFromBottom {
+    from {
+        opacity: 0;
+        -moz-transform: translateY(300%);
+    }
+    to {
+        opacity: 1;
+        -moz-transform: translateY(0%);
+    }
+}
+@-ms-keyframes moveFromBottom {
+    from {
+        opacity: 0;
+        -ms-transform: translateY(200%);
+    }
+    to {
+        opacity: 1;
+        -ms-transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes moveFromTop {
+    from {
+        opacity: 0;
+        -webkit-transform: translateY(-200%);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+@-moz-keyframes moveFromTop {
+    from {
+        opacity: 0;
+        -moz-transform: translateY(-200%);
+    }
+    to {
+        opacity: 1;
+        -moz-transform: translateY(0%);
+    }
+}
+@-ms-keyframes moveFromTop {
+    from {
+        opacity: 0;
+        -ms-transform: translateY(-200%);
+    }
+    to {
+        opacity: 1;
+        -ms-transform: translateY(0%);
+    }
+}
