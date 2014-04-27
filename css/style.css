@@ -48,6 +48,9 @@ h3 {
 .content{
 	width: 900px;
 	height: 100%;
+    margin: auto;
+    margin-top: 250px;
+    text-align: center;
 }
 .up{
 padding-top:20px;
